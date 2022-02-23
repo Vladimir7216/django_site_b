@@ -1,0 +1,412 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+body {
+    background-color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    border: 0px;
+}
+
+.header_logo img {
+    width: 150px;
+    height: 150px;
+
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    position: static;
+    top: 0;
+}
+
+.header_block {
+    display: flex;
+}
+
+.header_logo_text h1 {
+    font-size: 25px;
+    width: 220px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.header_logo_loc {
+    display: flex;
+    font-size: 15px;
+}
+
+.header_logo_loc img {
+    width: 70px;
+    height: 70px;
+    margin-left: 80px;
+    margin-top: 25px;
+
+}
+
+.header_logo_loc h1 {
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.header_logo_t img {
+    width: 70px;
+    height: 70px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.header_logo_t {
+    display: flex;
+    font-size: 15px;
+}
+
+.header_logo_t h1 {
+    margin-top: 40px;
+    margin-left: 7px;
+}
+
+.wrapper_nav {
+    justify-content: center;
+    display: flex;
+    border: 0px;
+    background-color: white;
+}
+
+.wrapper_nav a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    padding: 15px 30px;
+}
+
+.wrapper_nav a:hover {
+    background-color: #6600ff;
+    border-radius: 10px;
+
+}
+
+.intro {
+    display: flex;
+}
+
+.wrapper_intro {
+    width: 100%;
+    height: 400px;
+    background-image: url(img/main_back.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+
+}
+
+.wr {
+    display: flex;
+}
+
+.left_intro {
+    padding-right: 10px;
+    padding-top: 50px;
+    width: 600px;
+    margin-left: 100px;
+}
+
+hr {
+    color: #8000ff;
+}
+
+.left_intro h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.rigth_intro {
+    background-color: aliceblue;
+    border-radius: 20px;
+    height: 350px;
+    width: 300px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 90px;
+    border: medium solid aqua;
+}
+
+.rigth_intro h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.rigth_intro h2 {
+    padding-top: 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.formstyle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding-right: 35px;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.form1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.send_button {
+    padding: 15px 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: #8000ff;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.send_button:hover {
+    background-color: #6600ff;
+}
+
+.wrapper_case {
+    display: flex;
+    justify-content: center;
+
+}
+
+.case1 {
+    width: 350px;
+    height: 500px;
+    background-color: #876ED7;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+
+.case2 {
+    width: 350px;
+    height: 500px;
+    background-color: #876ED7;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+
+.case3 {
+    width: 350px;
+    height: 500px;
+    background-color: #876ED7;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+
+.pr {
+    font-family: Arial;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #2fdae7;
+    padding: 20px;
+    margin-top: 0;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.h1_c {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.p_c {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper_case li {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.price {
+    margin-top: 100px;
+    background-color: #FFFAFA;
+}
+
+.h1_price {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.lider {
+    background-color: white;
+    padding-top: 20px;
+}
+
+
+.wrapper_lider h1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex_lider {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+
+}
+
+.sv {
+    fill: #0291e0;
+    padding-right: 5px;
+}
+
+.pr1 {
+    margin-top: 0px;
+    width: 300px;
+    display: flex;
+    margin-right: 30px;
+}
+
+.pr1 h1 {
+    margin-top: 50px;
+}
+
+.pr2 {
+    margin-top: 40px;
+    width: 300px;
+    display: flex;
+    margin-right: 30px;
+}
+
+.pr2 h1 {
+    margin-top: 40px;
+}
+
+.pr3 {
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    margin-right: 30px;
+}
+
+.pr3 h1 {
+    margin-top: 50px;
+}
+
+.bg {
+    margin-top: 100px;
+    padding: 30px;
+    background-color: #FFFAFA;
+}
+
+.wrapper_slider h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper_slider img {
+    width: 800px;
+    margin-left: 170px;
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+    margin-left: 200px;
+
+
+}
+
+th {
+    background: #BCEBDD;
+    color: white;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+}
+
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+th:first-child {
+    border-top-left-radius: 10px;
+}
+
+th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+}
+
+td {
+    padding: 10px 20px;
+    background: #F8E391;
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+tr td:last-child {
+    border-right: none;
+}
+
+.v{
+    width: 400px;
+}
+
+tr{
+    text-align: center;
+}
+

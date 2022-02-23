@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/CSS" href="{% static 'style_t.css' %}">
+</head>
+<body>
+    <div class="wrapper">
+       <h1>{{ name}} ({{ phone }}) Спасибо за заявку!</h1>
+        <p>В ближайшее время специалист свяжетсья с Вами. Точную цену Вашего ремонта, Вы смоежет получить, после того как наш специалст произведет замер и составит список необохидимых услуг. Чтобы ускорить Вашу завявку, Вы можете позвонить нам сами по телефону: 89617302069</p>
+         <a href="{% url 'index' %}"><button class="send_button">ВЕРНУТЬСЯ НА ГЛАВНУЮ</button></a>
+    </div>
+
+
+
+
+</body>
+</html>
